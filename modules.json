@@ -477,5 +477,17 @@
         "production": "https://unpkg.com/history@[version]/umd/history.min.js"
       }
     }
-  }
+  },
+  
+  "react-bootstrap": {
+    "var": "History",
+    "versions": {
+      ">= 1.0.0-beta.9": {
+        "development": "https://unpkg.com/browse/react-bootstrap@[version]/dist/react-bootstrap.min.js",
+        "production": "https://unpkg.com/browse/react-bootstrap@[version]/dist/react-bootstrap.min.js"
+      }
+    }
+  }  
+  
+  
 }
