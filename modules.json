@@ -25,6 +25,19 @@
       }
     }
   },
+
+
+  "react-bootstrap": {
+    "var": "ReactBootstrap",
+    "versions": {
+      ">= 1.3.0": {
+        "development": "https://cdnjs.cloudflare.com/ajax/libs/react-bootstrap/1.3.0/react-bootstrap.min.js",
+        "production": "https://cdnjs.cloudflare.com/ajax/libs/react-bootstrap/1.3.0/react-bootstrap.min.js"
+      }
+    }
+  },
+
+
   "redux-saga": {
     "var": "ReduxSaga",
     "versions": {
@@ -433,15 +446,6 @@
       }
     }
   },
-  "hoist-non-react-statics": {
-    "var": "hoistNonReactStatics",
-    "versions": {
-      ">= 2.5.1": {
-        "development": "https://unpkg.com/hoist-non-react-statics@[version]/dist/hoist-non-react-statics.js",
-        "production": "https://unpkg.com/hoist-non-react-statics@[version]/dist/hoist-non-react-statics.min.js"
-      }
-    }
-  },
   "react-lifecycles-compat": {
     "var": "reactLifecyclesCompat",
     "versions": {
@@ -464,8 +468,8 @@
     "var": "_",
     "versions": {
       ">= 4.5.1": {
-        "development": "https://unpkg.com/lodash@[version]/core.js",
-        "production": "https://unpkg.com/lodash@[version]/core.min.js"
+        "development": "https://unpkg.com/lodash@[version]/lodash.js",
+        "production": "https://unpkg.com/lodash@[version]/lodash.min.js"
       }
     }
   },
@@ -477,17 +481,5 @@
         "production": "https://unpkg.com/history@[version]/umd/history.min.js"
       }
     }
-  },
-  
-  "react-bootstrap": {
-    "var": "History",
-    "versions": {
-      ">= 1.0.0-beta.9": {
-        "development": "https://unpkg.com/browse/react-bootstrap@[version]/dist/react-bootstrap.min.js",
-        "production": "https://unpkg.com/browse/react-bootstrap@[version]/dist/react-bootstrap.min.js"
-      }
-    }
-  }  
-  
-  
+  }
 }
