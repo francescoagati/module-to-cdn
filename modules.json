@@ -50,6 +50,15 @@
   },
 
 
+  "streamsaver": {
+    "var": "streamSaver",
+    "versions": {
+      ">= 1.3.0": {
+        "development": "https://cdn.jsdelivr.net/npm/streamsaver@2.0.3/StreamSaver.min.js",
+        "production": "https://cdn.jsdelivr.net/npm/streamsaver@2.0.3/StreamSaver.min.js"
+      }
+    }
+  },
 
 
 
