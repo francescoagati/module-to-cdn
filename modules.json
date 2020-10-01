@@ -39,7 +39,18 @@
   
   
 
-  "papaparse": {
+  "react-markdown": {
+    "var": "ReactMarkdown",
+    "versions": {
+      ">= 4.0.0": {
+        "development": "https://cdnjs.cloudflare.com/ajax/libs/react-markdown/4.3.1/react-markdown.js",
+        "production": "https://cdnjs.cloudflare.com/ajax/libs/react-markdown/4.3.1/react-markdown.js"
+      }
+    }
+  },
+  
+  
+    "papaparse": {
     "var": "Papa",
     "versions": {
       ">= 1.3.0": {
@@ -48,6 +59,7 @@
       }
     }
   },
+  
 
 
   "streamsaver": {
