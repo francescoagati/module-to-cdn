@@ -40,6 +40,19 @@
   
   
   
+
+
+  "baconjs": {
+    "var": "Bacon",
+    "versions": {
+      ">= 3.0.12": {
+        "development": "https://cdnjs.cloudflare.com/ajax/libs/bacon.js/3.0.12/Bacon.min.js",
+        "production": "https://cdnjs.cloudflare.com/ajax/libs/bacon.js/3.0.12/Bacon.min.js"
+      }
+    }
+  },
+
+
   
   
 
