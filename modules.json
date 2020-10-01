@@ -44,11 +44,11 @@
   
 
   "react-player": {
-    "var": "ReactPLayer",
+    "var": "ReactPlayer",
     "versions": {
       ">= 1.0.0": {
-        "development": "https://cdn.jsdelivr.net/npm/react-player@2.6.2/dist/ReactPlayer.standalone.js",
-        "production": "https://cdn.jsdelivr.net/npm/react-player@2.6.2/dist/ReactPlayer.standalone.js"
+        "development": "https://cdn.jsdelivr.net/npm/react-player@2.6.2/dist/ReactPlayer.js",
+        "production": "https://cdn.jsdelivr.net/npm/react-player@2.6.2/dist/ReactPlayer.js"
       }
     }
   },
