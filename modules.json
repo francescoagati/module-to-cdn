@@ -38,6 +38,20 @@
   },
   
   
+  
+  
+  
+  
+
+  "react-player": {
+    "var": "ReactPLayer",
+    "versions": {
+      ">= 1.0.0": {
+        "development": "https://cdn.jsdelivr.net/npm/react-player@2.6.2/dist/ReactPlayer.standalone.js",
+        "production": "https://cdn.jsdelivr.net/npm/react-player@2.6.2/dist/ReactPlayer.standalone.js"
+      }
+    }
+  },
 
   "react-markdown": {
     "var": "ReactMarkdown",
